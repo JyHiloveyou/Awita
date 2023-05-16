@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formularios</h1>
+    <article>
+        <h2>Tipo texto</h2>
+        <form action="#">
+            <label for="nombre">Nombres</label>
+            <input id="nombre" type="text" placeholder="ej. Yamila" required>
+            <br>
+            <label for="contraseña">contraseña</label>
+            <input type="password">
+            <br>
+            <label for="email">correo</label>
+            <input id="email" type="email" required>
+            <br>
+            <label for="descripcion">descripcion</label>
+            <textarea id="descripcion"></textarea>
+            <input type="submit" value="guardar">
+        </form>
+    </article>
+    <article>
+        <h2>campos de tipo numero</h2>
+        <form action="#">
+            <input type="number">
+            <br>
+            <input type="tel">
+            <br>
+            <input type="range" min="0" max="100" step="20">
+        </form>
+    </article>
+   <article>
+    <h2>campos de tipo fecha</h2>
+    <form action="#">
+        <input type="date">
+        <br>
+        <input type="time">
+    </form>
+   </article>
+   <article>
+    <h2>campos de color</h2>
+    <input type="color">
+    <button>4to B los </button>
+   </article>
+</body>
+</html>
